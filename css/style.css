@@ -1,0 +1,14 @@
+.backgroundImage {
+    background-image: url("../images/bgtexture.jpg");
+    background-repeat: repeat;
+    background-position: center;
+}
+
+.white {
+    background-color: white;
+}
+
+.whiteBorder {
+    border: 8px solid white;
+}
+
