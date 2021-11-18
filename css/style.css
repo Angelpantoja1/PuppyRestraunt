@@ -12,3 +12,46 @@
     border: 8px solid white;
 }
 
+body {
+    background-image: url("../images/bgtexture.jpg");
+}
+
+.txtMainNav {
+    color: #5F002B;
+    padding-top: 2em;
+}
+
+.hero-image {
+    background-image:url("../images/homeHero.jpg");
+    height: 37.5em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-top: 2em;
+    margin-bottom: -4em;
+  }
+
+  .homeSingle{
+    background-image:url("../images/homeSingle.jpg");
+    height: 674px;
+    width: 449.5px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    margin-top: 0em;
+    margin-bottom: 4em;
+    margin-right: auto;  
+  }
+
+  .hmWhiteBg{
+      height:20em;
+      width: 35em;
+      background-color: #FFFFFF;
+      position: absolute;
+      top:92%;
+      left:50%;
+      color: #5F002B;
+      
+  }
