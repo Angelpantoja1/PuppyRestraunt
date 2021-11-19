@@ -1,41 +1,157 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Hello, world!</title>
   </head>
-  <body class="backgroundImage">
 
+  <body class="backgroundImage">
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light ">
-            <div class="container-fluid">
-                <a href="#" class="navbar-brand">
-                  <img src="./images/MuzzlesLogo.png" height="70" alt="CoolBrand">
-                </a>
-                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
-                    <div class="navbar-nav">
-                        <a href="#" class="nav-item nav-link active">About</a>
-                        <a href="#" class="nav-item nav-link">Menu</a>
-                        <a href="#" class="nav-item nav-link">Catering</a>
-                        <a href="#" class="nav-item nav-link ">Photo</a>
-                    </div>
+
+      <!-- NavBar -->
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand">
+              <img src="./images/MuzzlesLogo.png" height="70" alt="CoolBrand">
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+                <div class="navbar-nav">
+                    <a href="#" class="nav-item nav-link active">About</a>
+                    <a href="#" class="nav-item nav-link">Menu</a>
+                    <a href="#" class="nav-item nav-link">Catering</a>
+                    <a href="#" class="nav-item nav-link ">Photo</a>
                 </div>
             </div>
-        </nav>
+        </div>
+      </nav>
+      <!-- End NavBar -->
+
+      <!-- Menu Title -->
+      <div class="row mx-0">
+        <div class="col d-flex justify-content-center bg-white mb-3">
+          <h1>Our Menu</h1>
+        </div>
+      </div>
+
+      <!-- End Menu Title -->
+      
+      
+
+      <!-- Menu -->
+      <!-- <div class="row">
+        <div class="col-6">
+          <div class="card mb-3">
+            <img src="./images/menubeef.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sandwiches</h5>
+              <p class="card-text"> All Sandwiches come with an side of crispy fries.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="card mb-3">
+            <img src="./images/menuseafood.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Seafood</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-6">
+          <div class="card mb-3">
+            <img src="./images/menumeat.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">On the grill</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="card mb-3">
+            <img src="./images/menudesserts.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Desserts</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div> -->
+
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="./images/menubeef.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sandwiches</h5>
+              <p class="card-text">All sandwiches come with a side of crispy fries</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./images/menuseafood.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Seafood</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./images/menubeef.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">On the grill</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./images/menudesserts.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Desserts</h5>
+              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- End Menu -->
+
     </div>
+
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
@@ -44,3 +160,4 @@
     -->
   </body>
 </html>
+
