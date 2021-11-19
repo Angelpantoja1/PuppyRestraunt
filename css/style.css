@@ -28,30 +28,58 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    margin-top: 2em;
-    margin-bottom: -4em;
+    /* margin-top: 2em;
+    margin-bottom: -4em; */
   }
 
   .homeSingle{
-    background-image:url("../images/homeSingle.jpg");
-    height: 674px;
-    width: 449.5px;
-    background-position: center;
+    height: 452px;
+    width: 674px;
+    /* background-position: center; */
     background-repeat: no-repeat;
     background-size: 100%;
-    position: relative;
-    margin-top: 0em;
+    /* position: relative; */
+    /* margin-top: 12.5em;
     margin-bottom: 4em;
-    margin-right: auto;  
+    margin-right: 2em;  
+    margin-left: -2em; */
   }
 
   .hmWhiteBg{
-      height:20em;
-      width: 35em;
+      padding-top: 2em;
+      
+      padding-right: 2em;
+    
+      
+      height:265px;
+      width: 950px;
       background-color: #FFFFFF;
-      position: absolute;
+      /* position: absolute;
       top:92%;
-      left:50%;
+      left:50%; */
       color: #5F002B;
       
   }
+
+  .hmImage{
+    /* background-image:url("../images/HomeImage.jpg"); */
+    margin-top: 6em;
+    height: 100px;
+    width: 185px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* position: absolute;
+    top:112%;
+    left:50%; */
+    color: #5F002B;
+    
+}
+
+.footer{
+
+
+}
+
+.bgColorTeal{
+    background-color: teal;
+}
