@@ -16,3 +16,31 @@
     margin: 0 !important;
 }
 
+.fugazFont {
+    font-family: Fugaz One;
+    color: #5F002B !important;
+}
+
+.montaukFontParagraph {
+    font-family: Montauk-Regular;
+    font-size: 15px;
+    color: #5F002B;
+}
+
+.montaukFontParagraphPrice{
+    font-family: Montauk-Regular;
+    font-size: 20px;
+    color: #5F002B;
+}
+
+.montaukFontParagraphTitle {
+    font-family: Montauk-Regular;
+    font-size: 25px;
+    color: #5F002B;
+}
+
+.hrColor {
+    color: #5F002B;
+    
+}
+
