@@ -154,3 +154,56 @@ padding-left: 1.5rem;
    }
  */
 
+.removeMargin {
+    margin: 0 !important;
+}
+
+.fugazFont {
+    font-family: "Fugaz One";
+    color: #5F002B !important;
+}
+
+.montaukFontParagraph {
+    font-family: "Montauk-Regular";
+    font-size: 10px;
+    color: #5F002B;
+}
+
+.montaukFontParagraphPrice{
+    font-family: "Montauk Regular";
+    font-size: 20px;
+    color: #5F002B;
+}
+
+.montaukFontParagraphTitle {
+    font-family: "Montauk Regular";
+    font-size: 20px;
+    color: #5F002B;
+}
+
+.hrColor {
+    color: #5F002B;
+    
+}
+
+@font-face {
+    font-family: "Montauk Regular";
+    src: url("../fonts/Montauk-Regular.otf");
+}
+
+@font-face {
+    font-family: "Montauk Bold";
+    src: url("../fonts/Montauk-Bold.otf");
+}
+
+@font-face {
+    font-family: "Montauk Italic";
+    src: url("../fonts/Montauk-Italic.otf");
+}
+
+@font-face {
+    font-family: "Montauk Light";
+    src: url("../fonts/Montauk-Light.otf");
+}
+
+
