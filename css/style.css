@@ -11,4 +11,124 @@
 .whiteBorder {
     border: 8px solid white;
 }
+body{
+    background-image: url("../images/bgtexture.jpg");
+    padding-right: 0%;
+    padding-left: 5%;
+}
+
+.ourteambox{
+    margin-top: 4%;
+    background-color:white;
+    height: 80px;
+    margin-bottom: 2%;
+    
+}
+.ourteamtext{
+        color: #5F002B;
+        font-family: Fugaz One;
+        font-size: 30px;
+        text-align: center;
+        padding-top: 1.5%;
+}    
+.AboutWbox{
+    background-color:white;
+    height: 647.5px;
+    width: 670px;
+    justify-content: center;
+    padding-right: 5%;
+    padding-left: 10%;
+    
+    }   
+.Abouttitle{
+padding-top: 10px;
+font-size: 40px;
+font-family: Fugaz One;
+color: #5F002B;
+text-align: center;
+margin-bottom: 0;
+
+}
+.AboutP{
+ font-family: Montauk;
+ color: #5F002B;
+}
+.nav-link{
+    font-family: Fugaz One;
+    color: #5F002B !important;
+    font-size: 20px;
+}
+.logo{
+background-image: url(../images/MuzzlesLogo.png);
+width: 250px;
+height: 92px;
+}
+.cateringhero{
+    background-image: url(../images/cateringHero.jpg);
+    height: 500px;
+}
+body{  
+    background-image: url("../images/bgtexture.jpg");
+    padding-right: 0%;
+    padding-left: 5%;
+}
+
+.ourteambox{
+    margin-top: 4%;
+    background-color:white;
+    height: 80px;
+    margin-bottom: 2%;
+    
+}
+.ourteamtext{
+        color: #5F002B;
+        font-family: Fugaz One;
+        font-size: 30px;
+        text-align: center;
+        padding-top: 1.5%;
+}    
+.AboutWbox{
+    background-color:white;
+    height: 647.5px;
+    width: 670px;
+    justify-content: center;
+    padding-right: 5%;
+    padding-left: 10%;
+    
+    }   
+.Abouttitle{
+padding-top: 10px;
+font-size: 40px;
+font-family: Fugaz One;
+color: #5F002B;
+text-align: center;
+margin-bottom: 0;
+
+}
+.AboutP{
+ font-family: Montauk;
+ color: #5F002B;
+}
+.nav-link{
+    font-family: Fugaz One;
+    color: #5F002B !important;
+    font-size: 20px;
+}
+.logo{
+background-image: url(../images/MuzzlesLogo.png);
+width: 250px;
+height: 92px;
+}
+.cateringhero{
+    background-image: url(../images/cateringHero.jpg);
+}
+.nav-link{
+padding-right: 1.5rem;
+padding-left: 1.5rem;
+    }
+    .WBox{
+        background-color: white;
+        height: 366px;
+    }
+
 
